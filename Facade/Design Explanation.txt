@@ -1,0 +1,5 @@
+The Facade design pattern simplifies the interface to a complex system; 
+because it is usually composed of all the classes which make up the subsystems of the complex system.
+
+A Facade shields the user from the complex details of the system and provides them with a simplified view of it which is easy to use. 
+It also decouples the code that uses the system from the details of the subsystems, making it easier to modify the system later.

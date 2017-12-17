@@ -1,0 +1,3 @@
+The Decorator Pattern is used for adding additional functionality to a particular object as opposed to a class of objects. It is easy to add 
+functionality to an entire class of objects by subclassing an object, but it is impossible to extend a single object this way. 
+With the Decorator Pattern, you can add functionality to a single object and leave others like it unmodified.

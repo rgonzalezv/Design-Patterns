@@ -1,0 +1,12 @@
+Define a family of algorithms, encapsulate each one, and make them interchangeable. 
+Strategy lets the algorithm vary independently from clients that use it.
+
+What is a Strategy? A strategy is a plan of action designed to achieve a specific goal;
+
+“Define a family of algorithms, encapsulate each one, and make them interchangeable. 
+Strategy lets the algorithm vary independently from clients that use it.” (Gang of Four);
+Specifies a set of classes, each representing a potential behaviour. Switching between those classes changes the application behaviour. (the Strategy);
+
+This behaviour can be selected at runtime (using polymorphism) or design time;
+
+Capture the abstraction in an interface, bury implementation details in derived classes;
