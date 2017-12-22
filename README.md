@@ -23,4 +23,11 @@ Current Design Patterns exists on the list:
 - Strategy
 - Template Method
 
+Design Pattern to be added:
+
+- Interpreter 
+- Mediator 
+- Memento 
+- Visitor 
+
 I am still working on this repository and adding more design patterns daily.
