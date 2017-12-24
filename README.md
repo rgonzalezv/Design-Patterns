@@ -15,6 +15,8 @@ Current Design Patterns exists on the list:
 - Facade
 - Factory
 - Flyweight
+- Mediator 
+- Memento 
 - Observer
 - Prototype
 - Proxy
@@ -26,8 +28,6 @@ Current Design Patterns exists on the list:
 Design Pattern to be added:
 
 - Interpreter 
-- Mediator 
-- Memento 
 - Visitor 
 
 I am still working on this repository and adding more design patterns daily.
