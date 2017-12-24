@@ -24,10 +24,10 @@ Current Design Patterns exists on the list:
 - State
 - Strategy
 - Template Method
+- Visitor 
 
 Design Pattern to be added:
 
 - Interpreter 
-- Visitor 
 
 I am still working on this repository and adding more design patterns daily.
