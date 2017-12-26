@@ -1,9 +1,9 @@
 # Design-Patterns
-All Design Patterns code and explanation will be here, explanation will be inside each folder of specific Design Pattern and the code will be written in C# at environment Visual Studio Code.
+All Design Patterns code and explanation are here, explanation will be inside each folder of specific Design Pattern and the code will be written in C# at environment Visual Studio Code.
 
 Trying to make the code simple as I can with good explanation, read inside the folder the explanation of the design pattern, clone the design pattern to your environment and run it to see the results and understand it even deeply.
 
-Current Design Patterns exists on the list:
+Design Patterns exists on the list:
 
 - Adapter
 - Bridge
@@ -15,6 +15,7 @@ Current Design Patterns exists on the list:
 - Facade
 - Factory
 - Flyweight
+- Interpreter 
 - Mediator 
 - Memento 
 - Observer
@@ -25,9 +26,3 @@ Current Design Patterns exists on the list:
 - Strategy
 - Template Method
 - Visitor 
-
-Design Pattern to be added:
-
-- Interpreter 
-
-I am still working on this repository and adding more design patterns daily.
