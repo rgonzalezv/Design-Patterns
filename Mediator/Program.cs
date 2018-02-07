@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mediator
+namespace MosheBinieli.Mediator
 {
     class Program
     {
