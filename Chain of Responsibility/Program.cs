@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Chain_of_Responsibility
+namespace MosheBinieli.Chain_of_Responsibility
 {
     class Program
     {
