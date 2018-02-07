@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Adapter
+namespace MosheBinieli.Adapter
 {
     class Program
     {
