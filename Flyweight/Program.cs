@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DoFactory.GangOfFour.Flyweight.RealWorld
+namespace MosheBinieli.Flyweight
 {
     class MainApp
     {
