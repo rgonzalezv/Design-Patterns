@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Command
+namespace MosheBinieli.Command
 {
     class Program
     {
