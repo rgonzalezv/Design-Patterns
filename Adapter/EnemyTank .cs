@@ -3,6 +3,7 @@ using System;
 public class EnemyTank : IEnemyAttacker
 {
     Random random = new Random();
+    
     public void AssignDriver(string driverName)
     {
         Console.WriteLine(driverName + " is driving the tank");
