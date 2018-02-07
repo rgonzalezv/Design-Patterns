@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Builder
+namespace MosheBinieli.Builder
 {
     class Program
     {
