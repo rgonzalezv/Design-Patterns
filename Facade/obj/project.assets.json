@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\Facade\\Facade.csproj",
+      "projectUniqueName": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\Facade\\Facade.csproj",
       "projectName": "Facade",
-      "projectPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\Facade\\Facade.csproj",
+      "projectPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\Facade\\Facade.csproj",
       "packagesPath": "C:\\Users\\mmosh\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\Facade\\obj\\",
+      "outputPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\Facade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

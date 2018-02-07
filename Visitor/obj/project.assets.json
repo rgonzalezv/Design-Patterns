@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\Visitor\\Visitor.csproj",
+      "projectUniqueName": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\Visitor\\Visitor.csproj",
       "projectName": "Visitor",
-      "projectPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\Visitor\\Visitor.csproj",
+      "projectPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\Visitor\\Visitor.csproj",
       "packagesPath": "C:\\Users\\mmosh\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\Visitor\\obj\\",
+      "outputPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\Visitor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

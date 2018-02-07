@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\State\\State.csproj",
+      "projectUniqueName": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\State\\State.csproj",
       "projectName": "State",
-      "projectPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\State\\State.csproj",
+      "projectPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\State\\State.csproj",
       "packagesPath": "C:\\Users\\mmosh\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\Design Patterns C#\\State\\obj\\",
+      "outputPath": "c:\\Users\\mmosh\\Desktop\\Moshe Files\\GitHub Projects\\Design Patterns C#\\State\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ObserverProgram
+namespace MosheBinieli.Observer
 {
     class Program
     {

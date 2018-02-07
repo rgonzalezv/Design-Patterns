@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Template_Method
+namespace MosheBinieli.Template_Method
 {
     class Program
     {
