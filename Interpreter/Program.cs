@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DoFactory.GangOfFour.Interpreter.RealWorld
+namespace MosheBinieli.Interpreter
 {
     class MainApp
     {
