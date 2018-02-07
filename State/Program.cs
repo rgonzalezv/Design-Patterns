@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace State
+namespace MosheBinieli.State
 {
     class Program
     {
