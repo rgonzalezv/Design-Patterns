@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Prototype
+namespace MosheBinieli.Prototype
 {
     class Program
     {
