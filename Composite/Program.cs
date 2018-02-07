@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DoFactory.GangOfFour.Composite.RealWorld
+namespace MosheBinieli.Composite
 {
     class MainApp
     {
