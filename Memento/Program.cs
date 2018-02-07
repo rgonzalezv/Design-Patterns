@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DoFactory.GangOfFour.Memento.RealWorld
+namespace MosheBinieli.Memento
 {
     class MainApp
     {
