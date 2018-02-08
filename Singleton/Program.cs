@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Singleton
+namespace MosheBinieli.Singleton
 {
     class Program
     {
