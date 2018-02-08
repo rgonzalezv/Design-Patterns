@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Strategy
+namespace MosheBinieli.Strategy
 {
     class Program
     {
