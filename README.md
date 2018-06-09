@@ -250,9 +250,126 @@ Think Twitter. When you say you want to follow someone, Twitter adds you to thei
 you see it in your input. In that case, your Twitter account is the Observer and the person you're following is the Observable.
 
 # Prototype
+
+The Prototype pattern is a creation pattern based on cloning a pre-configured object. 
+The idea is that you pick an object that is configured for either the default or in the ballpark of some specific use case and then you 
+clone this object and configure to your exact needs.
+
+The pattern is useful to remove a bunch of boilerplate code, when the configuration required would be onerous. 
+I think of Prototypes as a preset object, where you save a bunch of state as a new starting point.
+
 # Proxy
+
+A proxy, in its most general form, is a class functioning as an interface to something else. 
+The proxy could interface to anything: a network connection, a large object in memory, 
+a file, or some other resource that is expensive or impossible to duplicate. 
+
+In short, a proxy is a wrapper or agent object that is being called by the client to access the real serving object behind the scenes. 
+Use of the proxy can simply be forwarding to the real object, or can provide additional logic. In the proxy, extra functionality can be provided, 
+for example caching when operations on the real object are resource intensive, 
+or checking preconditions before operations on the real object are invoked. For the client, usage of a proxy object is similar to using the real object, 
+because both implement the same interface.
+
+What problems can the Proxy design pattern solve?
+
+- The access to an object should be controlled.
+- Additional functionality should be provided when accessing an object.
+
+When accessing sensitive objects, for example, it should be possible to check that clients have the needed access rights.
+
+What solution does the Proxy design pattern describe?
+
+Define a separate Proxy object that
+
+- can be used as substitute for another object (Subject) and
+- implements additional functionality to control the access to this subject.
+
+This enables to work through a Proxy object to perform additional functionality when accessing a subject. For example, to check the access rights of clients accessing a sensitive object.
+To act as substitute for a s
+
 # Singleton
+
+Ensure a class has only one instance, and provide a global point of access to it.
+
 # State
+
+This pattern is used in computer programming to encapsulate varying behavior for the same object based on its internal state. 
+This can be a cleaner way for an object to change its behavior at runtime without resorting to large monolithic conditional statements 
+and thus improve maintainability.
+
+What problems can the State design pattern solve?
+
+- An object should change its behavior when its internal state changes.
+- State-specific behavior should be defined independently. That is, new states should be added and the behavior of existing states should be changed independently.
+Implementing state-specific behavior directly within a class is inflexible because it commits the class to a particular behavior and makes it impossible to add a new state or change the behavior of an existing state later independently from (without changing) the class.
+
+
+What solution does the State design pattern describe?
+
+- Define separate (state) objects that encapsulate state-specific behavior for each state. That is, define an interface (State) for performing state-specific behavior, and define classes that implement the interface for each state.
+- A class delegates state-specific behavior to its current state object instead of implementing state-specific behavior directly.
+
+This makes a class independent of how state-specific behavior is implemented. New states can be added by defining new state classes.
+A class can change its behavior at run-time by changing its current state object.
+
 # Strategy
+
+Define a family of algorithms, encapsulate each one, and make them interchangeable. 
+Strategy lets the algorithm vary independently from clients that use it.
+
+What is a Strategy? A strategy is a plan of action designed to achieve a specific goal;
+
+“Define a family of algorithms, encapsulate each one, and make them interchangeable. 
+Strategy lets the algorithm vary independently from clients that use it.” (Gang of Four);
+Specifies a set of classes, each representing a potential behaviour. Switching between those classes changes the application behaviour. (the Strategy);
+
+This behaviour can be selected at runtime (using polymorphism) or design time;
+
+Capture the abstraction in an interface, bury implementation details in derived classes;
+
 # Template Method
+
+Similarities
+
+Strategy and Template method patterns have a lot of similarities between them. 
+Both Strategy and Template method patterns can be used for satisfying the Open-Closed Principle 
+and making the software module easy to extend without changing its code. Both patterns represent separation of generic functionality 
+from the detailed implementation of that functionality. However, they differ a little in terms of granularity they offer.
+
+
+Differences
+Here are some of the differences I have observed while studying these two patterns:
+
+- In Strategy, the coupling between the client and strategy is more loose whereas in Template Method, the two modules are more tightly coupled.
+
+- In Strategy, mostly an interface is used though abstract class can also be used depending on the situation, and concrete class is not used whereas in 
+Template method mostly abstract class or concrete class is used, interface is not used.
+
+- In Strategy pattern, generally entire behaviour of the class is represented in terms of an interface, 
+on the other hand, Template method is used for reducing code duplication and the boilerplate code is defined in base framework or abstract class. 
+In Template Method, there can even be a concrete class with default implementation.
+
+- In simple words, you can change the entire strategy (algorithm) in Strategy pattern, however, in Template method, 
+only some things change (parts of algorithm) and rest of the things remain unchanged. In Template Method, the invariant steps are implemented in 
+an abstract base class, while the variant steps are either given a default implementation, or no implementation at all. In Template method, 
+the component designer mandates the required steps of an algorithm, and the ordering of the steps, but allows the component client to extend or 
+replace some number of these steps.
+
 # Visitor 
+
+
+What problems can the Visitor design pattern solve?
+
+- It should be possible to define a new operation for (some) classes of an object structure without changing the classes.
+
+When new operations are needed frequently and the object structure consists of many unrelated classes, it's inflexible to add new subclasses each time a new operation is required because "[..] distributing all these operations across the various node classes leads to a system that's hard to understand, maintain, and change." [1]
+
+
+What solution does the Visitor design pattern describe?
+
+
+- Define a separate (visitor) object that implements an operation to be performed on elements of an object structure.
+- Clients traverse the object structure and call a dispatching operation accept(visitor) on an element — that "dispatches" (delegates) 
+the request to the "accepted visitor object". The visitor object then performs the operation on the element ("visits the element").
+
+This makes it possible to create new operations independently from the classes of an object structure by adding new visitor objects.
