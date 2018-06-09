@@ -1,8 +1,0 @@
-Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
-
-ou have a concrete example of a Student and a MessageBoard. 
-The Student registers by adding itself to the list of Observers that want to be notified when a new Message is posted to the MessageBoard. 
-When a Message is added to the MessageBoard, it iterates over its list of Observers and notifies them that the event occurred.
-
-Think Twitter. When you say you want to follow someone, Twitter adds you to their follower list. When they sent a new tweet in, 
-you see it in your input. In that case, your Twitter account is the Observer and the person you're following is the Observable.
