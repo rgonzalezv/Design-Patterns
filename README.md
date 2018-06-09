@@ -50,7 +50,7 @@ After Bridge Pattern:
 
              ----Shape---                        Color
             /            \                       /   \
-	Rectangle(Color)   Circle(Color)       Blue   Red
+	Rectangle(Color)   Circle(Color)           Blue   Red
 
 # Builder
 
