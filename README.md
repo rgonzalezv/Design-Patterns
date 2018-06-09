@@ -45,6 +45,7 @@ Before Bridge Pattern:
         /         \            /      \
 BlueRectangle  RedRectangle BlueCircle RedCircle
 
+
 After Bridge Pattern:
 
           ----Shape---                        Color
