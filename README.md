@@ -39,18 +39,18 @@ You need to map orthogonal class hierarchies.
 
 Before Bridge Pattern:
 
-                   ----Shape---
-                  /            \
-         Rectangle              Circle
-        /         \            /      \
-BlueRectangle  RedRectangle BlueCircle RedCircle
+                      ----Shape---
+                  /                  \
+         Rectangle                    Circle
+        /         \                  /      \
+	BlueRectangle  RedRectangle BlueCircle RedCircle
 
 
 After Bridge Pattern:
 
-          ----Shape---                        Color
-         /            \                       /   \
-Rectangle(Color)   Circle(Color)           Blue   Red
+             ----Shape---                        Color
+            /            \                       /   \
+	Rectangle(Color)   Circle(Color)       Blue   Red
 
 # Builder
 
