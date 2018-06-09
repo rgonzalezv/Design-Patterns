@@ -3,7 +3,7 @@ All Design Patterns code and explanation are here, explanation will be inside ea
 
 Trying to make the code simple as I can with good explanation, read inside the folder the explanation of the design pattern, clone the design pattern to your environment and run it to see the results and understand it even deeply.
 
-#Adapter
+# Adapter
 
 In computer programming, the adapter pattern (often referred to as the wrapper pattern or simply a wrapper) is a design pattern that translates 
 one interface for a class into a compatible interface. An adapter allows classes to work together that normally could not because of incompatible 
@@ -15,7 +15,7 @@ extracting the appropriate values from the integer value.
 It allows two unrelated interfaces to work together through the different objects, possibly playing same role.
 It modifies original interface.
 
-#Bridge
+# Bridge
 
 - Builder
 - Chain of Responsibility
