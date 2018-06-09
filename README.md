@@ -47,6 +47,10 @@ BlueRectangle  RedRectangle BlueCircle RedCircle
 
 After Bridge Pattern:
 
+          ----Shape---                        Color
+         /            \                       /   \
+Rectangle(Color)   Circle(Color)           Blue   Red
+
 # Builder
 
 The key difference between a builder and factory IMHO, is that a builder is useful when you need to do lots of things to build an object. 
